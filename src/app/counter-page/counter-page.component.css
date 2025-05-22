@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    color: #2c3e50;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;
+  }
+  .pagination {
+    margin: 20px 0;
+  }
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  a:hover {
+    background-color: #c0392b;
+  }
